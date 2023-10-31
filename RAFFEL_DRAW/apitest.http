@@ -1,0 +1,32 @@
+GET http://localhost:3000/api/v1/tickets
+
+###
+POST http://localhost:3000/api/v1/tickets
+Content-Type: application/json
+
+{
+    "username": "Jahid",
+    "price": 10
+}
+
+###
+GET http://localhost:3000/api/v1/tickets/t/cw61uS9J3
+
+###
+GET http://localhost:3000/api/v1/tickets/u/Hasan
+
+###
+DELETE http://localhost:3000/api/v1/tickets/t/BNil3OAYh
+
+
+###
+DELETE http://localhost:3000/api/v1/tickets/u/Hasan
+
+###
+PUT   http://localhost:3000/api/v1/tickets/u/Hasan
+
+Content-Type: application/json
+
+{
+    "username": "Jahid Hasan",
+}

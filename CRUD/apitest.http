@@ -1,0 +1,50 @@
+GET http://localhost:8000/
+
+###
+POST http://localhost:8000/
+Content-Type: application/json
+
+
+{
+    "name": "Hasan",
+    "roll": "500404",
+    "dept": "CMT"
+}
+
+###
+GET http://localhost:8000/
+
+###
+GET http://localhost:8000/kzlGyOrvm
+
+###
+PATCH http://localhost:8000/kzlGyOrvm
+Content-Type: application/json
+
+
+{
+    "name": "Ziaul hasan Zisan"
+}
+
+
+###
+PUT http://localhost:8000/etiw7o6fb
+Content-Type: application/json
+
+{
+    "name": "Ziaul",
+    "roll": "500404",
+    "dept": "Food"
+}
+###
+
+PUT http://localhost:8000/dsfmklafj
+Content-Type: application/json
+
+{
+    "name": "Ziaul hsasan",
+    "roll": "500404",
+    "dept": "Food"
+}
+###
+DELETE http://localhost:8000/4oV5C7uJG
