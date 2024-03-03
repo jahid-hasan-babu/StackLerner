@@ -5,3 +5,6 @@
 // 4.Data is exposed to whole program
 // 5.Here, operation priority is higher than code
 // 6.Difficult to relate with real world data
+
+// What is Object---
+// 1.Combination of Noun,Adjective & verb
