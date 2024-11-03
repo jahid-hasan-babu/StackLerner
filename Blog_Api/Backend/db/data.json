@@ -1,0 +1,33 @@
+{
+  "users": [],
+  "articles": [
+    {
+      "id": 1,
+      "authorId": 1,
+      "title": "First Article",
+      "body": "First content",
+      "status": "published",
+      "createdAt": "2022-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "authorId": 2,
+      "title": "Second Article",
+      "body": "Second content",
+      "status": "published",
+      "createdAt": "2022-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "authorId": 3,
+      "title": "Third Article",
+      "body": "Third content",
+      "status": "published",
+      "createdAt": "2024-11-03T02:23:00.391Z",
+      "updatedAt": "2024-11-03T02:23:00.391Z"
+    }
+  ],
+  "comments": []
+}
