@@ -27,6 +27,16 @@
       "status": "published",
       "createdAt": "2024-11-03T02:23:00.391Z",
       "updatedAt": "2024-11-03T02:23:00.391Z"
+    },
+    {
+      "title": "Another 4",
+      "body": "Body of the first article",
+      "authorId": 999,
+      "cover": "https://s3.aws.eample.com/23nds",
+      "status": "draft",
+      "id": 4,
+      "createdAt": "2024-11-18T09:32:44.293Z",
+      "updatedAt": "2024-11-18T09:32:44.294Z"
     }
   ],
   "comments": []

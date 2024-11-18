@@ -53,7 +53,7 @@ class DatabaseConnection {
     this.dbURL = dbURL;
   }
 
-  async readDB() {
+  async connect() {
     try {
       const dbStr = await fs.readFile(this.dbURL, { encoding: "utf-8" });
       this.db = JSON.parse(dbStr);
@@ -76,13 +76,15 @@ class DatabaseConnection {
     }
   }
 
-  async getDB() {
-    if (!this.db) {
-      await this.readDB(); // Only read the DB if it's not already read
-    }
-    return this.db;
-  }
+  // async getDB() {
+  //   if (!this.db) {
+  //     await this.connect(); // Only read the DB if it's not already read
+  //   }
+  //   return this.db;
+  // }
 }
 
-const connection = new DatabaseConnection(path.resolve(process.env.DB_URL));
-module.exports = connection;
+const databaseConnection = new DatabaseConnection(
+  path.resolve(process.env.DB_URL)
+);
+module.exports = databaseConnection;
